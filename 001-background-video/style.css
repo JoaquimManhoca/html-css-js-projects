@@ -24,8 +24,12 @@ h1{
 }
 button{
     background-color: transparent;
-    color: white;
+    color: lightgray;
     font-size: 30px;
     padding: 10px 40px;
-    border: 1px solid white;
+    border: 1px solid lightgray;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.5;
 }
